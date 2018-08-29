@@ -42,9 +42,12 @@ class MCryptEncryptionService implements EncryptionServiceInterface
      */
     public function __construct($secret, $cipher = 'rijndael-256', $mode = 'ctr')
     {
-        if (!extension_loaded('mcrypt')) {
-            throw new \RuntimeException('The mcrypt extension must be loaded.');
-        }
+        // tamedia-adtec
+        // Added phpseclib/mcrypt_compat as package dependency, so we need to disable ext-mcrypt check. The original
+        // code below is preserved for legacy and maintenance purposes.
+        //if (!extension_loaded('mcrypt')) {
+        //    throw new \RuntimeException('The mcrypt extension must be loaded.');
+        //}
 
         @trigger_error('mcrypt has been deprecated in PHP 7.1 and is removed in PHP 7.2. Refer to http://jmspaymentcorebundle.readthedocs.io/en/stable/guides/mcrypt.html for instructions on how to migrate away from mcrypt', E_USER_DEPRECATED);
 
