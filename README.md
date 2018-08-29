@@ -1,8 +1,13 @@
+# Description
+
+A unified API for processing payments with Symfony. Based on `jms/payment-core-bundle`. Adapted to work with 
+`phpseclib/mcrypt_compat` in order to phase out `ext-mcrypt`.
+
+
 # JMSPaymentCoreBundle
 A unified API for processing payments with Symfony
 
 [![Build Status](https://img.shields.io/travis/schmittjoh/JMSPaymentCoreBundle/master.svg?style=flat-square)](http://travis-ci.org/schmittjoh/JMSPaymentCoreBundle)
-[![Total Downloads](https://img.shields.io/packagist/dt/jms/payment-core-bundle.svg?style=flat-square)](https://packagist.org/packages/jms/payment-core-bundle)
 [![Packagist Version](https://img.shields.io/packagist/v/jms/payment-core-bundle.svg?style=flat-square)](https://packagist.org/packages/jms/payment-core-bundle)
 
 This bundle provides the foundation for using different payment backends in Symfony projects. It abstracts away the differences between payment protocols and offers a simple and unified API for performing financial transactions.
