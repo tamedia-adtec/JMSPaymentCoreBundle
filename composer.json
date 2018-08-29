@@ -1,7 +1,7 @@
 {
-    "name": "jms/payment-core-bundle",
+    "name": "tamedia-adtec/jmspcd",
     "type": "symfony-bundle",
-    "description": "A unified API for processing payments with Symfony",
+    "description": "A unified API for processing payments with Symfony. Based on jms/payment-core-bundle. Adapted to work with phpseclib/mcrypt_compat in order to phase out ext-mcrypt.",
     "keywords": ["payment"],
     "homepage": "http://jmspaymentcorebundle.readthedocs.io",
     "license": "Apache2",
@@ -21,6 +21,7 @@
     ],
     "require": {
         "php": ">=5.4",
+        "phpseclib/mcrypt_compat": "*",
         "doctrine/common": "~2.3",
         "doctrine/dbal": "~2.3",
         "doctrine/orm": "~2.3",
