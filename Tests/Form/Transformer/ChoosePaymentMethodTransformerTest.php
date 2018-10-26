@@ -5,8 +5,9 @@ namespace JMS\Payment\CoreBundle\Tests\Form\Transformer;
 use JMS\Payment\CoreBundle\Entity\ExtendedData;
 use JMS\Payment\CoreBundle\Entity\PaymentInstruction;
 use JMS\Payment\CoreBundle\Form\Transformer\ChoosePaymentMethodTransformer;
+use PHPUnit\Framework\TestCase;
 
-class ChoosePaymentMethodTransformerTest extends \PHPUnit_Framework_TestCase
+class ChoosePaymentMethodTransformerTest extends TestCase
 {
     public function testTransformNullData()
     {

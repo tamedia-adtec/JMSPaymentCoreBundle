@@ -3,10 +3,12 @@
 namespace JMS\Payment\CoreBundle\Tests\DependencyInjection\Configuration;
 
 use JMS\Payment\CoreBundle\DependencyInjection\Configuration;
-use Matthias\SymfonyConfigTest\PhpUnit\AbstractConfigurationTestCase;
+use Matthias\SymfonyConfigTest\PhpUnit\ConfigurationTestCaseTrait;
 
-class ConfigurationTest extends AbstractConfigurationTestCase
+class ConfigurationTest
 {
+    use ConfigurationTestCaseTrait;
+
     public function testNoSecret()
     {
         $this->assertConfigurationIsValid(array());

@@ -3,8 +3,9 @@
 namespace JMS\Payment\CoreBundle\Tests\Plugin;
 
 use JMS\Payment\CoreBundle\Plugin\ErrorBuilder;
+use PHPUnit\Framework\TestCase;
 
-class ErrorBuilderTest extends \PHPUnit_Framework_TestCase
+class ErrorBuilderTest extends TestCase
 {
     private $builder;
 

@@ -9,8 +9,9 @@ use JMS\Payment\CoreBundle\Entity\Payment;
 use JMS\Payment\CoreBundle\Entity\PaymentInstruction;
 use JMS\Payment\CoreBundle\Model\CreditInterface;
 use JMS\Payment\CoreBundle\Model\FinancialTransactionInterface;
+use PHPUnit\Framework\TestCase;
 
-class CreditTest extends \PHPUnit_Framework_TestCase
+class CreditTest extends TestCase
 {
     public function testConstructor()
     {

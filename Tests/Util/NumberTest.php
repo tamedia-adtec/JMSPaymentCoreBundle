@@ -3,8 +3,9 @@
 namespace JMS\Payment\CoreBundle\Tests\Util;
 
 use JMS\Payment\CoreBundle\Util\Number;
+use PHPUnit\Framework\TestCase;
 
-class NumberTest extends \PHPUnit_Framework_TestCase
+class NumberTest extends TestCase
 {
     /**
      * @dataProvider getComparisonTests

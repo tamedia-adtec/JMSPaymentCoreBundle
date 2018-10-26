@@ -3,8 +3,9 @@
 namespace JMS\Payment\CoreBundle\Tests\Cryptography;
 
 use JMS\Payment\CoreBundle\Cryptography\DefusePhpEncryptionService;
+use PHPUnit\Framework\TestCase;
 
-class DefusePhpEncryptionServiceTest extends \PHPUnit_Framework_TestCase
+class DefusePhpEncryptionServiceTest extends TestCase
 {
     /**
      * @dataProvider getTestData

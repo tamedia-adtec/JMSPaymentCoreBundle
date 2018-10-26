@@ -6,8 +6,9 @@ use Doctrine\DBAL\Types\Type;
 use JMS\Payment\CoreBundle\Cryptography\DefusePhpEncryptionService;
 use JMS\Payment\CoreBundle\Entity\ExtendedData;
 use JMS\Payment\CoreBundle\Entity\ExtendedDataType;
+use PHPUnit\Framework\TestCase;
 
-class ExtendedDataTypeTest extends \PHPUnit_Framework_TestCase
+class ExtendedDataTypeTest extends TestCase
 {
     protected function setUp()
     {

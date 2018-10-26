@@ -5,8 +5,9 @@ namespace JMS\Payment\CoreBundle\Tests\Validator;
 use JMS\Payment\CoreBundle\Util\Legacy;
 use JMS\Payment\CoreBundle\Validator\Luhn;
 use JMS\Payment\CoreBundle\Validator\LuhnValidator;
+use PHPUnit\Framework\TestCase;
 
-class LuhnValidatorTest extends \PHPUnit_Framework_TestCase
+class LuhnValidatorTest extends TestCase
 {
     protected $context;
     protected $validator;

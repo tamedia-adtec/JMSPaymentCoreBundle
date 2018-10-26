@@ -3,8 +3,9 @@
 namespace JMS\Payment\CoreBundle\Tests\Entity;
 
 use JMS\Payment\CoreBundle\Entity\FinancialTransaction;
+use PHPUnit\Framework\TestCase;
 
-class FinancialTransactionTest extends \PHPUnit_Framework_TestCase
+class FinancialTransactionTest extends TestCase
 {
     public function testConstructor()
     {

@@ -5,8 +5,9 @@ namespace JMS\Payment\CoreBundle\Tests\Validator;
 use JMS\Payment\CoreBundle\Util\Legacy;
 use JMS\Payment\CoreBundle\Validator\CardScheme;
 use JMS\Payment\CoreBundle\Validator\CardSchemeValidator;
+use PHPUnit\Framework\TestCase;
 
-class CardSchemeValidatorTest extends \PHPUnit_Framework_TestCase
+class CardSchemeValidatorTest extends TestCase
 {
     protected $context;
     protected $validator;

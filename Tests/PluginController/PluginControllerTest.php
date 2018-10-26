@@ -18,8 +18,9 @@ use JMS\Payment\CoreBundle\PluginController\Event\PaymentInstructionStateChangeE
 use JMS\Payment\CoreBundle\PluginController\Event\PaymentStateChangeEvent;
 use JMS\Payment\CoreBundle\PluginController\PluginController;
 use JMS\Payment\CoreBundle\PluginController\Result;
+use PHPUnit\Framework\TestCase;
 
-class PluginControllerTest extends \PHPUnit_Framework_TestCase
+class PluginControllerTest extends TestCase
 {
     private $dispatcher;
 

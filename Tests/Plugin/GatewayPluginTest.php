@@ -3,8 +3,9 @@
 namespace JMS\Payment\CoreBundle\Tests\Plugin;
 
 use JMS\Payment\CoreBundle\BrowserKit\Request;
+use PHPUnit\Framework\TestCase;
 
-class GatewayPluginTest extends \PHPUnit_Framework_TestCase
+class GatewayPluginTest extends TestCase
 {
     public function testRequest()
     {
